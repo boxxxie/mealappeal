@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document for mobile device compatibility */
+
+@media (min-width: 320px) and (max-width: 800px) {
+	#food{
+		width:100%;
+	}
+	
+	#ads{
+		width:100%;
+		clear:both;
+	}
+	
+	.ads{
+		float:left;
+		margin-right:5px;
+	}
+
+	#top-bar-links{
+		margin:auto 5px;
+		font-size:1em;
+		padding-left:5px;
+		padding-right:5px;
+	}
+	
+	#search-box{
+		width:100px;
+	}
+	
+	#selections ul li{
+		display:inline;
+		float:left;
+		margin-right:10px;
+	}
+	
+	
+}
+
+@media (min-width: 600px) and (max-width: 800px) {
+	
+	
+	
+}
+
+
+@media (min-width: 1000px) and (max-width: 1024px) {
+	#food{
+		width:755px;
+		float:right;
+	}
+	#ads{
+		
+		margin-right:20px;
+	}
+	
+	.ads{
+		float:left;
+		margin-right:10px;
+	}
+	
+}
+

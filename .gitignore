@@ -1,0 +1,15 @@
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+auto-save-list
+tramp
+.\#*
+
+# Org-mode
+.org-id-locations
+*_archive
+.DS_Store
+push_cloudant.sh
+push_cloudant_dev.sh

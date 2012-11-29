@@ -1,0 +1,9 @@
+[submodule "modules/couchdb"]
+	path = modules/couchdb
+	url = git@github.com:boxxxie/couchdb.git
+[submodule "modules/angular"]
+	path = modules/angular
+	url = git://github.com/angular/angular.js.git
+[submodule "modules/angular-ui"]
+	path = modules/angular-ui
+	url = git://github.com/angular-ui/angular-ui.git
