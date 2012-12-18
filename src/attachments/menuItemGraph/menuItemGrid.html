@@ -1,0 +1,24 @@
+<div class="masonry" ng-controller="menuItemGraphController">
+  <div class="masonry-item" ng-repeat="menuItem in menuItemList" 
+       class="panel masonry-brick" 
+       style="position: absolute; top: 0px; left: 380px;">
+    <div class="panel-img"> 
+      <img ng-src={{menuItem.img}} 
+           width="170" height="170" alt="Food">
+      <div class="panel-overlay">
+        <div class="panel-overlay-left">{{menuItem.title}}</div>
+        <div class="panel-overlay-right">
+          <span ng-repeat="cat in menuItem.categories"> 
+            <img ng-src="{{cat.img}}"
+                 width="19" height="20" alt="{{cat.name}}"> 
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="panel-title panel-cyan">
+      <div class="resto-name">{{menuItem.place}}</div>
+      <div class="resto-link pull-right"><a href="#" target="_blank"> <i class="icon-home"></i>Visit Site</a></div>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>

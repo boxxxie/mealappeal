@@ -1,0 +1,23 @@
+<style>
+.masonry .masonry-item {
+ width: 220px;
+ margin: 10px;
+ float: left;
+}
+</style>
+
+<div class="masonry" ng-controller="menuItemGraphController">
+  <div class="masonry-item"  ng-repeat="menuItem in menuItemList">
+    <div class="panel-img"> 
+      <img ng-src="{{menuItem.img}}" width="360" height="260" alt="Food"/>
+      <div class="panel-overlay">
+        <div class="panel-overlay-left">{{menuItem.title}}</div>
+        <div class="panel-overlay-right"> 
+          <span ng-repeat="cat in menuItem.categories">
+            <img ng-src="{{cat.img}}"  width="19" height="20" alt="{{cat.name}}"/>
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
